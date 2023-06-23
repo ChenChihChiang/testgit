@@ -40,8 +40,9 @@ jobs:
 
       - uses: actions-ecosystem/action-get-latest-tag@v1
         id: get-latest-tag
-        
+
       - uses: actions-ecosystem/action-push-tag@v1
         with:
           tag: v0.0.1
           message: 'test'
+
