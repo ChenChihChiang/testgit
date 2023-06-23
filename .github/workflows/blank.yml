@@ -35,9 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: ls
-        run: ls 
-
       - uses: actions-ecosystem/action-get-latest-tag@v1
         id: get-latest-tag
 
@@ -45,4 +42,3 @@ jobs:
         with:
           tag: v0.0.1
           message: 'test'
-
