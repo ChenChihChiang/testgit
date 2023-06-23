@@ -35,6 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      - name: ls
+        run: ls 
+
       - uses: actions-ecosystem/action-push-tag@v1
         with:
           tag: v0.0.1
